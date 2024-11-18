@@ -21,8 +21,6 @@ def predict_diabetes(pregnancies, glucose, insulin, bmi, dpf, age):
     return prediction, prediction_proba
 
 def main():
-    st.title("Diabetes Prediction App")
-   
     html_temp = """
     <h2 style="color:white; text-align:center;">Streamlit Diabetes Prediction App</h2>
     </div>
